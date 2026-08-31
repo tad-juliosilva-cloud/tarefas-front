@@ -1,0 +1,59 @@
+* {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    
+    body {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #ffffff;
+      border: 12px solid #000000;
+    }
+
+    
+    .container {
+      width: 100%;
+      max-width: 900px;
+      padding: 0 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+   
+    .group {
+      display: flex;
+      gap: 20px;
+    }
+
+    /* Quadrados rosa */
+    .square {
+      width: 120px;
+      height: 120px;
+      background-color: #ff3377;
+      border: 3px solid #000000;
+      border-radius: 20px;
+      box-shadow: 4px 4px 0px #000000;
+    }
+  </style>
+</head>
+<body>
+
+  <main class="container">
+    <div class="group">
+      <div class="square"></div>
+      <div class="square"></div>
+    </div>
+
+    <div class="group">
+      <div class="square"></div>
+      <div class="square"></div>
+    </div>
+  </main>
+
+</body>
+</html>
